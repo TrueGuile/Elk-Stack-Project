@@ -3,11 +3,13 @@
 The files in this repository were used to configure the network depicted below.
 
 
-!![Elk-Stack-Diagram](https://user-images.githubusercontent.com/74278185/110709354-4b77b000-81b9-11eb-96d9-c03506358054.PNG)
+![Elk-Stack-Diagram](https://user-images.githubusercontent.com/74278185/110709354-4b77b000-81b9-11eb-96d9-c03506358054.PNG)
 
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-playbook.yml file may be used to install only certain pieces of it, such as Filebeat.
+
+(https://github.com/TrueGuile/Elk-Stack-Project/blob/main/ansible/filebeat-playbook.yml)
 
 
 This document contains the following details:
@@ -92,5 +94,3 @@ SSH into the control node and follow the steps below:
 - Copy the playbook file to etc/ansible.
 - Update the host file to include the IP addresses of the VM's you want to run the playbook for.
 - Run the playbook, and navigate to http://<ELK.VM.External.IP>:5601/app/kibana to check that the installation worked as expected.
-
-_As a **Bonus**, provide the specific commands the user will need to run to download the playbook, update the files, etc._
